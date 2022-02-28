@@ -3,9 +3,8 @@
     <head>
         <title>Exercise #3- Registration form</title>
         <style>
-            form{
+            fieldset{
                 width: 35%;
-                background-color: antiquewhite;
             }
         </style>
     </head>
@@ -14,10 +13,10 @@
 
     <body>
         <h2 >Registration form !</h2>
-
-        
             <form>
                 <fieldset>
+                    <p><b>Personal details</b></p>
+                    <hr/>
                 <br/>
                 <label>First name: </label>
                 <input type="text">
@@ -25,7 +24,7 @@
                 <label>Last name: </label>
                 <input type="text">
                 <br/><br/>
-                <label>Email address: </label>
+                <label>Email: </label>
                 <input type="email">
                 <br/><br/>
                 <label>Gender: </label>
@@ -33,7 +32,7 @@
                 <label>Male </label>
                 <input type="radio" name="gender" value="1">
                 <label>Female </label>
-                <br/>
+                <br/><br/>
                 <label>City: </label>
                 <select name="city">
                     <option value="a">Amman</option>
@@ -41,13 +40,9 @@
                     <option value="q">Aqaba</option>
                 </select>
                 <br/><br/>
+                <input type="button" value="Sign up">
             </fieldset>
             </form>
-            <br/>
-       
-        <br/>
-        <input type="button" value="Subscribe">
-  
     </body>
 
 
