@@ -2,33 +2,46 @@
 <html>
 <head>
     <title>Exercise #2</title>
+
+    <!--EXTERNAL CSS-->
     <link rel="stylesheet" href="style.css">
+
+    <!--ENTERNAL CSS-->
+    <style>
+        .class1{
+            color: red;
+        }
+    </style>
 </head>
+
+
 <body>
     <h1><ins>Have Fun While Styling !</ins></h1>
     <hr/>
-    <p id="p1">Here is a text <a href="" style="color: coral;">with a link</a> . Let's do it !</p>
-    <p id="p2">We have more links here ;</p>
-    <p id="p3">Is this a (<a href="">link</a> ?).</p>
+    <p id="p1">Here is a text <a href="" class="class2">with a link</a> . Let's do it !</p>
+    <p id="p2">We have more <a href="" class="class2">links</a> here ;</p>
+    
+    <!--INLINE CSS-->
+    <p id="p3">Is this a (<a href="" style="background-color: yellow;">link</a> ?).</p>
     <p id="p4">We have a list</p>
     <ul class="list">
-        <li>Please, <a href="">Click Me!</a></li>
+        <li><b>Please, <a href="" class="class1">Click Me!</a></b></li>
         <br/>
         <li>Can you? let's count
             <ul style="list-style-type: circle;">
                 <li>111 </li>
-                <li>222 <a href="">Another Link</a></li>
+                <li>222 <a href="" class="class1">Another Link</a></li>
                 <li>333 
                     <ol>
                         <li>red </li>
                         <li>green </li>
-                        <li>blue <a href="">Colors Link</a></li>
+                        <li>blue <a href="" class="class1">Colors Link</a></li>
                     </ol>
                 </li>
             </ul>
         </li>
         <br/>
-        <li>That's Enough </li>
+        <li>That's Enough !</li>
     </ul>
 </body>
 </html>
