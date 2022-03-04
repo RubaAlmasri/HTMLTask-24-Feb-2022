@@ -10,18 +10,25 @@
 
 #p1_3{
     background-color: aliceblue;
-    
+    width: 150px;
+    margin: 10px;
     display:inline-block;
 }
 #p2_3{
     background-color: aliceblue;
+    width: 150px;
     display:inline-block;
 }
 #p3_3{
     background-color: aliceblue;
-    float: left;
-    width: 50px;
-    height: 50px;
+    width: 150px;   
+    margin: 10px;
+    display:inline-block;
+
+}
+#pp{
+    position: sticky;
+    margin: 5px;
 }
 
 #img1{
