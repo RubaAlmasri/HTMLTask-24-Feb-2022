@@ -2,7 +2,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
 }
-
 #p1_1{
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
@@ -31,4 +30,60 @@
     position: fixed;
     right: 20px;
     
+}
+
+#d1{
+    background-color: green;
+    border: 1px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#d2{
+    background-color: yellow;
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#d3{
+    background-color: green;
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#d4{
+    background-color: yellow;
+    width: 440px;
+    height: 440px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#d5{
+    background-color: green;
+    width: 420px;
+    height: 420px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+#d6{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
 }
