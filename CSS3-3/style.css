@@ -142,3 +142,94 @@
     left: 110px;
     top: 50px;
 }
+
+#num1{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: wheat;
+    text-align: center;
+}
+#num2{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: none;
+    color: wheat;
+    text-align: center;
+}
+#num3{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: wheat;
+    text-align: center;
+}
+#num4{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: none;
+    color: wheat;
+    text-align: center;
+}
+#num5{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: wheat;
+    text-align: center;
+}
+#num6{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: none;
+    color: wheat;
+    text-align: center;
+}
+#num7{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: wheat;
+    text-align: center;
+}
+#num8{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: none;
+    color: wheat;
+    text-align: center;
+}
+#num9{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: wheat;
+    text-align: center;
+}
+#num10{
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    display: none;
+    color: wheat;
+    text-align: center;
+}
