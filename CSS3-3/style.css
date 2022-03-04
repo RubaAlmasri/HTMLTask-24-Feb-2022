@@ -87,3 +87,58 @@
     text-align: center;
     font-size: xx-large;
 }
+
+#zz1{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#zz2{
+    background-color: green;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 110px;
+    top: 50px;
+}
+#zz3{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 110px;
+    bottom: 50px;
+}
+#zz4{
+    background-color: green;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 110px;
+    top: 50px;
+}
+#zz5{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 110px;
+    bottom: 50px;
+}
+#zz6{
+    background-color: green;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 110px;
+    top: 50px;
+}
