@@ -233,3 +233,19 @@
     color: wheat;
     text-align: center;
 }
+
+#art1{
+    border: 1px solid black;
+    background-color: white;
+    width: 500px;
+}
+#art2{
+    border: 1px solid black;
+    background-color: white;
+    width: 500px;
+}
+#art3{
+    border: 1px dashed red;
+    background-color: white;
+    width: 500px;
+}
