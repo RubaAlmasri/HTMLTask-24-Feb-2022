@@ -8,3 +8,27 @@
     color: blue;
     text-align: right;
 }
+
+#p1_3{
+    background-color: aliceblue;
+    
+    display:inline-block;
+}
+#p2_3{
+    background-color: aliceblue;
+    display:inline-block;
+}
+#p3_3{
+    background-color: aliceblue;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+#img1{
+    width: 100px;
+    height: 500px;
+    position: fixed;
+    right: 20px;
+    
+}
