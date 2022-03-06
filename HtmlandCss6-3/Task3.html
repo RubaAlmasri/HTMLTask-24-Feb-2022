@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task #3</title>
+    <style>
+
+        #div0{
+            background-color: black;
+            width: 100px;
+            height: 260px;
+            padding: 10px;
+            border-radius: 5%;
+        }
+
+        #div1{
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+            margin: 25px;
+            border-radius: 50%;
+            animation-name: d1;
+            animation-duration: 1s;
+        }
+        @keyframes d1 {
+            from{background-color: gray;}
+            to{background-color: red;}
+        }
+        #div2{
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+            margin: 25px;
+            border-radius: 50%;
+            animation-name: d2;
+            animation-duration: 1s;
+            animation-delay: 1s;
+        }
+        @keyframes d2 {
+            from{background-color: gray;}
+            to{background-color: yellow;}
+        }
+        #div3{
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+            margin: 25px;
+            border-radius: 50%;
+            animation-name: d3;
+            animation-duration: 1s;
+            animation-delay: 2s;
+        }
+        @keyframes d3 {
+            from{background-color: gray;}
+            to{background-color: green;}
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div0">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+    </div>
+</body>
+</html>
