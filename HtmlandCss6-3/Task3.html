@@ -7,61 +7,68 @@
         #div0{
             background-color: black;
             width: 100px;
-            height: 260px;
+            height: 250px;
+            border-radius: 10px;
             padding: 10px;
-            border-radius: 10%;
-            animation-iteration-count: infinite;
         }
 
-        #div1{
+        span{
             background-color: gray;
-            width: 50px;
-            height: 50px;
-            margin: 25px;
-            border-radius: 50%;
-            animation-name: d1;
-            animation-duration: 1s;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            display:block;
+            margin: 33px;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+
         }
-        @keyframes d1 {
-            from{background-color: gray;}
-            to{background-color: red;}
+
+        #r{
+            animation-name: r;
         }
-        #div2{
-            background-color: gray;
-            width: 50px;
-            height: 50px;
-            margin: 25px;
-            border-radius: 50%;
-            animation-name: d2;
-            animation-duration: 1s;
-            animation-delay: 1s;
+        @keyframes r {
+        0%,33% {
+          background-color: red;
         }
-        @keyframes d2 {
-            from{background-color: gray;}
-            to{background-color: yellow;}
+        34%,100% {
+          background-color: gray;
         }
-        #div3{
-            background-color: gray;
-            width: 50px;
-            height: 50px;
-            margin: 25px;
-            border-radius: 50%;
-            animation-name: d3;
-            animation-duration: 1s;
-            animation-delay: 2s;
+      }
+
+        #y{
+            animation-name: y;
         }
-        @keyframes d3 {
-            from{background-color: gray;}
-            to{background-color: green;}
+        @keyframes y {
+        0%,33% {
+          background-color: gray;
         }
+        34%,66% {
+          background-color: yellow;
+        }
+        67%,100% {
+          background-color: gray;
+        }
+      }
+        #g{
+            animation-name: g;
+        }
+        @keyframes g {
+        0%,66% {
+          background-color: gray;
+        }
+        67%,100% {
+          background-color: green;
+        }
+    }
     </style>
 </head>
 
 <body>
     <div id="div0">
-        <div id="div1"></div>
-        <div id="div2"></div>
-        <div id="div3"></div>
+        <span id="r"></span>
+        <span id="y"></span>
+        <span id="g"></span>
     </div>
 </body>
 </html>
