@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        @keyframes di {
+            0%   {left:0px; top:0px;}
+            25%  {left:300px; top:0px;}
+            50%  {left:300px; top:300px;}
+            75%  {left:0px; top:300px;}
+            100% {left:0px; top:0px;}
+        }
+        div{
+            width:100px ;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            animation-name: di;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+        }
+    </style>
+</head>
+<body>
+    <div> </div>
+</body>
+</html>
