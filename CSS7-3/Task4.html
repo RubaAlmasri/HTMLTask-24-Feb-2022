@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task #4</title>
+    <style>
+        #div1{
+            display: grid;
+            grid-template-areas: 'bl bl bl bl bl' 'o o o g g' 'b b b b b';
+            grid-gap: 10px;
+        }
+        #black{
+            background-color: black;
+            grid-area: bl;
+            padding: 30px;
+        }
+        #orange{
+            background-color: orange;
+            grid-area: o;
+            padding: 100px;
+        }
+        #green{
+            background-color: green;
+            grid-area: g;
+            padding: 100px;
+        }
+        #blue{
+            background-color: blue;
+            grid-area: b;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div id="black"></div>
+        <div id="orange"></div>
+        <div id="green"></div>
+        <div id="blue"></div>
+    </div>
+</body>
+</html>
