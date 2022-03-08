@@ -1,0 +1,12 @@
+#p1{
+    color: blue;
+}
+
+@media print{
+    #img1{
+        display: none;
+    }
+    #p1{
+        color: red;
+    }
+}
